@@ -1,0 +1,693 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+header .logo{
+    width: 26.1vw;
+    position: absolute;
+    top: 5.3vw;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+    background-color: #08122980;
+}
+
+header nav section{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.3vw;
+    margin-left: auto;
+    margin-right: 20px;
+    height: 50px;
+}
+
+header nav section p {
+    font-size: 1.1vw;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+header .header-banner {
+    width: 100%;
+    top: 0;
+}
+
+header .section-headear {
+    width: 75vw;
+    top: 15.5vw;
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding: 1.09vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .section-headear h1 {
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    letter-spacing: 1.2px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+header .section-headear h2 {
+    font-size: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 1vw;
+    letter-spacing: 0.2px;
+}
+
+header .section-headear p span{
+    color: #db1170;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header .section-headear button {
+    height: 4.3vw;
+    width: 25vw;
+    margin-top: 3.6vw;
+    font-size: 1.27vw;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    background-color: #db1170;
+    box-shadow: 0px 0px 30px -7px #db1170;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1.25vw;
+    border-radius: 2vw;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+}
+
+.fade-in {
+    animation: animationFrames ease 1s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animationFrames {
+    0% {
+        opacity: 0;
+        transform: translate(-200px, -200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes btn-section-headear {
+    0% {
+        transform: scale(1.05)
+    }
+
+    50% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(1.05)
+    }
+}
+
+.btn-section-headear {
+    -webkit-animation: btn-section-headear 1.8s linear infinite;
+    -moz-animation: btn-section-headear 1.8s linear infinite;
+    -ms-animation: btn-section-headear 1.8s linear infinite;
+    -o-animation: btn-section-headear 1.8s linear infinite;
+    animation: btn-section-headear 1.8s linear infinite;
+}
+
+/* --------------- Main ---------------*/
+
+/* --------------- container-1 ---------------*/
+main .container-1 section img{
+    width: 40vw;
+    margin-right: 60px;
+}
+
+main .container-1 section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+main .container-1 h1{
+    font-size: 2.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 800;
+    margin-top: 2vw;
+    margin-bottom: 0.9vw;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+main .container-1 p{
+    font-size: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #081229;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 1.7vw;
+    text-align: start;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --------------- container-2 ---------------*/
+main .container-2 section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+main .container-2 section .container-2-img{
+    width: 45vw;
+    margin-right: 20px;
+    border-radius: 2vw;
+}
+
+main .container-2 section .content{
+    width: 75vw;
+    padding-left: 2.1vw;
+}
+
+main .container-2 h1{
+    font-size: 2.3vw;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 800;
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    letter-spacing: 0.2px;
+    line-height: 2.6vw;
+    text-align: start;
+}
+
+main .container-2 h1 span{
+    color: #db1170;
+}
+
+main .container-2 p{
+    font-size: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #081229;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 2.2vw;
+    text-align: start;
+}
+
+main .container-2 ul{
+    margin-top: 1vw;
+}
+
+main .container-2 ul p{
+    font-size: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #081229;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 31px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7vw;
+}
+
+main .container-2 ul img{
+    width: 45px;
+}
+
+/*---------------------- Container-P3 ----------------------*/
+main .container-p3{
+    margin-top: 130px;
+}
+
+main .container-p3 h1{
+    font-size: 2.5vw;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    color: #1C1C1C;
+    font-weight: 800;
+    text-align: center;
+    line-height: 2.5vw;
+}
+
+main .container-p3 h1 span{
+    color: #db1170;
+}
+
+main .container-p3 p{
+    font-size: 1.2vw;
+    letter-spacing: 0.3px;
+    line-height: 1.8vw;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    margin-top: 12px;
+    text-align: center;
+}
+
+main .container-p3 section .owl-theme {
+    margin-top: 4vw;
+    width: 100%;
+}
+
+main .container-p3 .owl-theme .item{
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+main .container-p3 .owl-theme .item .img-course{
+    margin-bottom: 12px;
+}
+
+main .container-p3 .owl-theme .item h2{
+    font-size: 1.2vw;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-weight: 800;
+}
+
+main .container-p3 .owl-theme .item p{
+    font-size: 1.2vw;
+    letter-spacing: 0.3px;
+    line-height: 1.8vw;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    text-align: start;
+}
+
+main .container-p3 section .rating{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+    position: absolute;
+    right:0;
+}
+
+main .container-p3 section .rating h3{
+    font-size: 1.3vw;
+    letter-spacing: 0.3px;
+    line-height: 1.8vw;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+main .container-p3 section .rating img{
+    width: 4.5vw;
+}
+
+/* --------------- container-4 ---------------*/
+main .container-4{
+    width: 100%;
+    margin-top: 2vw;
+    padding: 3vw 0vw;
+}
+
+main .container-4 h1{
+    font-size: 2.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 800;
+    margin-bottom: 0.5vw;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+main .container-4 p{
+    font-size: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #081229;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 31px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+/* --------------- container-5 ---------------*/
+main .container-5{
+    margin-top: 5vw;
+    padding: 3vw 0vw;
+}
+
+main .container-5 section img{
+    width: 40%;
+    margin-right: 60px;
+    border-radius: 2vw;
+}
+
+main .container-5 section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+main .container-5 section div{
+    margin-right: 4vw;
+}
+
+main .container-5 h1{
+    font-size: 2.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 800;
+    margin-top: 2vw;
+    margin-bottom: 0.9vw;
+    letter-spacing: 0.2px;
+    text-align: start;
+}
+
+main .container-5 h1 span{
+    color: #db1170;
+}
+
+main .container-5 p{
+    font-size: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #081229;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 31px;
+    text-align: start;
+    width: 700px;
+}
+
+/* --------------- container-6 ---------------*/
+main .container-6{
+    width: 100%;
+    margin-top: 2vw;
+    padding: 3vw 0vw;
+}
+
+main .container-6 h1{
+    font-size: 2.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 800;
+    margin-bottom: 0.5vw;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+main .container-6 p{
+    font-size: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #081229;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 31px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+main .container-6 h1 span{
+    color: #db1170;
+}
+
+/*---------------------- Container-P4 ----------------------*/
+main .container-p4{
+    margin-top: 120px;
+}
+
+main .container-p4 h1{
+    font-size: 2.5vw;
+    letter-spacing: 0.3px;
+    font-family: 'Inter', sans-serif;
+    color: #1C1C1C;
+    font-weight: 800;
+    text-align: center;
+}
+
+main .container-p4 h1 span{
+    color: #db1170;
+}
+
+main .container-p4 .container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 5vw;
+}
+
+/*---------------------- Card-Plus ----------------------*/
+main .container-p4 .card-plus{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    width: 30vw;
+    border-radius: 20px;
+}
+
+main .container-p4 .card-plus img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+main .container-p4 .card-plus .content{
+    height: 20vw;
+}
+
+main .container-p4 .card-plus .content h2{
+    text-align: center;
+    font-size: 2.5vw;
+    letter-spacing: 0.3px;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 800;
+    margin-bottom: 0.3vw;
+}
+
+main .container-p4 .container-cards .content span{
+    font-size: 1vw;
+    letter-spacing: 0.3px;
+    line-height: 1.2vw;
+    margin-top: 6px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    margin-right: 2px;
+}
+
+main .container-p4 .card-plus .content h3{
+    text-align: center;
+    font-size: 1vw;
+    letter-spacing: 0.3px;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 400;
+    margin-bottom: 2.3vw;
+}
+
+main .container-p4 .card-plus .content p{
+    font-size: 1vw;
+    letter-spacing: 0.3px;
+    line-height: 1.2vw;
+    margin-top: 6px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    padding-left: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main .container-p4 .card-plus .content p img{
+    width: 2.1vw;
+    margin-right: 5px;
+}
+
+main .container-p4 .container-cards .btn-card-plus {
+    height: 4.3vw;
+    width: 25vw;
+    margin-top: 2.3vw;
+    font-size: 1.27vw;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    background-color: #520140;
+    box-shadow: 0px 0px 30px -7px #520140;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1.25vw;
+    border-radius: 2vw;
+    letter-spacing: 0.7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*---------------------- Card-Pro ----------------------*/
+main .container-p4 .card-pro{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    width: 30vw;
+    padding-bottom: 3vw;
+    border-radius: 20px;
+    border: #ff8f27 2px solid;
+    box-shadow: 0px 0px 30px 0px #ff8f27;
+}
+
+main .container-p4 .card-pro img{
+    width: 100%;
+    border-radius: 17px 17px 0px 0px;
+}
+
+main .container-p4 .card-pro .content{
+    height: 20vw;
+}
+
+main .container-p4 .card-pro .content h2{
+    text-align: center;
+    font-size: 2.5vw;
+    letter-spacing: 0.3px;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 800;
+    margin-bottom: 0.3vw;
+}
+
+main .container-p4 .card-pro .content h3{
+    text-align: center;
+    font-size: 1vw;
+    letter-spacing: 0.3px;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 400;
+    margin-bottom: 2.3vw;
+}
+
+main .container-p4 .card-pro .content p{
+    font-size: 1vw;
+    letter-spacing: 0.3px;
+    line-height: 1.2vw;
+    margin-top: 6px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    padding-left: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main .container-p4 .card-pro .content p img{
+    width: 2.1vw;
+    margin-right: 5px;
+}
+
+main .container-p4 .container-cards .btn-card-pro {
+    height: 4.3vw;
+    width: 25vw;
+    margin-top: 2.3vw;
+    font-size: 1.27vw;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    background-color: #ff8f27;
+    box-shadow: 0px 0px 30px -7px #ff8f27;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1.25vw;
+    border-radius: 2vw;
+    letter-spacing: 0.7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*---------------------- Footer ----------------------*/
+footer{
+    background-color: #081229;
+    width: auto;
+    margin-top: 120px;
+    text-align: center;
+    padding-top: 3vw;  
+}
+
+footer .content{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    font-size: 1.3vw;
+    letter-spacing: 0.3px;
+    line-height: 1.8vw;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+footer .midias-sociais{
+    display: flex;
+    justify-content: center;
+    gap: 1.5vw;
+    margin-top: 2vw;
+}
+
+footer .midias-sociais img{
+    width: 2.5vw;
+    cursor: pointer;
+}
+
+footer .copyright{
+    background-color: #000000;
+    width: auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9vw;
+    letter-spacing: 0.3px;
+    margin-top: 3vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding: 0.7vw;
+}
