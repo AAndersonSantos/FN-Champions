@@ -16,35 +16,6 @@ header .logo{
     z-index: 1;
 }
 
-header nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-    position: relative;
-    background-color: #08122980;
-}
-
-header nav section{
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    gap: 0.3vw;
-    margin-left: auto;
-    margin-right: 20px;
-    height: 50px;
-}
-
-header nav section p {
-    font-size: 1.1vw;
-    font-family: 'Inter', sans-serif;
-    color: #fafafa;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    padding: 7px;
-    cursor: pointer;
-}
-
 header .header-banner {
     width: 100%;
     top: 0;
@@ -566,7 +537,6 @@ main .container-p4 .container-cards .btn-card-plus {
     margin-right: auto;
 }
 
-
 /*---------------------- Card-Pro ----------------------*/
 main .container-p4 .card-pro{
     display: flex;
@@ -690,4 +660,366 @@ footer .copyright{
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     padding: 0.7vw;
+}
+
+/*------------------- Responsive -------------------*/
+
+@media screen and (max-width: 450px) {
+    header .logo{
+        width: 120px;
+        top: 20px;
+    }
+
+    header .section-headear {
+        width: 75vw;
+        top: 55px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        padding: 1.09vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    header .section-headear h1 {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    
+    header .section-headear h2 {
+        font-size: 8px;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        font-weight: 300;
+        margin-top: 1vw;
+        letter-spacing: 0.2px;
+    }
+
+    header .section-headear button {
+        height: 26px;
+        width: 150px;
+        margin-top: 3.6vw;
+        font-size: 7px;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif;
+        background-color: #db1170;
+        box-shadow: 0px 0px 30px -7px #db1170;
+        border: none;
+        color: #ffffff;
+        font-weight: 600;
+        padding: 1.25vw;
+        border-radius: 15px;
+        letter-spacing: 0.7px;
+        text-decoration: none;
+    }
+    
+    /* --------------- container-1 ---------------*/
+    main .container-1 section img{
+        width: 40%;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    main .container-1 section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    main .container-1 h1{
+        display: none;
+    }
+
+    main .container-1 p{
+        font-size: 15px;
+        line-height: 17px;
+        text-align: center;
+        width: 90%;
+    }
+
+    /* --------------- container-2 ---------------*/
+    main .container-2 section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+    main .container-2 section .container-2-img{
+        display: none;
+    }
+
+    main .container-2 section .content{
+        width: 75vw;
+        padding-left: 0px;
+    }
+
+    main .container-2 h1{
+        font-size: 17px;
+        font-family: 'Inter', sans-serif;
+        color: #363636;
+        font-weight: 800;
+        margin-top: 10px;
+        margin-bottom: 0;
+        letter-spacing: 0.2px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    main .container-2 p{
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+        color: #081229;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        line-height: 17px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    main .container-2 ul{
+        margin-top: 40px;
+    }
+
+    main .container-2 ul p{
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+        color: #081229;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        line-height: 31px;
+        text-align: start;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    main .container-2 ul img{
+        width: 45px;
+    }
+
+    /*---------------------- Container-P3 ----------------------*/
+    main .container-p3{
+        margin-top: 40px;
+    }
+
+    main .container-p3 h1{
+        font-size: 17px;
+        line-height: 17px;
+    }
+    
+    main .container-p3 p{
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 12px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* --------------- container-4 ---------------*/
+    main .container-4{
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px 0vw;
+    }
+    
+    main .container-4 h1{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    
+    main .container-4 p{
+        font-size: 12px;
+        line-height: 17px;
+        width: 90%;
+    }
+
+    /*------------------ Conyainer-5 ------------------*/
+    main .container-5{
+        margin-left: 10px;
+    }
+    
+    main .container-5 section img{
+        display: none;
+    }
+    
+    main .container-5 section div{
+        margin-right: 0;
+    }
+    
+    main .container-5 h1{
+        font-size: 17px;
+        text-align: center;
+    }
+    
+    main .container-5 p{
+        font-size: 12px;
+        line-height: 15px;
+        width: 90%;
+        text-align: center;
+    }
+
+    /*------------------ Conyainer-6 ------------------*/
+    main .container-6{
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px 0vw;
+    }
+    
+    main .container-6 h1{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    
+    main .container-6 p{
+        font-size: 12px;
+        line-height: 17px;
+        width: 90%;
+    }
+
+    /*---------------------- Container-P4-CARDS ----------------------*/
+    main .container-p4{
+        margin-top: 40px;
+    }
+
+    main .container-p4 h1{
+        font-size: 17px;
+        letter-spacing: 0.3px;
+        text-align: center;
+    }
+
+    main .container-p4 .container-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 30px;
+    }
+
+    /*---------------------- Card-Plus ----------------------*/
+    main .container-p4 .card-plus{
+        width: 250px;
+        border-radius: 20px;
+    }
+
+    main .container-p4 .card-plus img{
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    main .container-p4 .card-plus .content{
+        height: 150px;
+    }
+
+    main .container-p4 .card-plus .content h2{
+        text-align: center;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    main .container-p4 .container-cards .content span{
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 1.2vw;
+        margin-top: 6px;
+        font-family: 'Inter', sans-serif;
+        color: #000000;
+        font-weight: 300;
+        margin-right: 2px;
+    }
+
+    main .container-p4 .card-plus .content h3{
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    main .container-p4 .card-plus .content p{
+        font-size: 9px;
+        letter-spacing: 0.3px;
+        line-height: 15px;
+        margin-top: 6px;
+        padding-left: 30px;
+    }
+
+    main .container-p4 .card-plus .content p img{
+        width: 2.1vw;
+        margin-right: 5px;
+    }
+
+    main .container-p4 .container-cards .btn-card-plus {
+        height: 30px;
+        width: 170px;
+        margin-top: 0px;
+        font-size: 8px;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 15px;
+        letter-spacing: 0.7px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*---------------------- Card-Pro ----------------------*/
+    main .container-p4 .card-pro{
+        width: 250px;
+        border-radius: 20px;
+        padding-bottom: 20px;
+        border: #ff8f27 2px solid;
+        box-shadow: 0px 0px 30px 0px #ff8f27;
+    }
+
+    main .container-p4 .card-pro img{
+        width: 100%;
+        border-radius: 17px 17px 0px 0px;
+    }
+
+    main .container-p4 .card-pro .content{
+        height: 180px;
+    }
+
+    main .container-p4 .card-pro .content h2{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    main .container-p4 .card-pro .content h3{
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    main .container-p4 .card-pro .content p{
+        font-size: 9px;
+        letter-spacing: 0.3px;
+        line-height: 15px;
+        margin-top: 6px;
+        padding-left: 30px;
+    }
+
+    main .container-p4 .card-pro .content p img{
+        width: 2.1vw;
+        margin-right: 5px;
+    }
+
+    main .container-p4 .container-cards .btn-card-pro {
+        height: 30px;
+        width: 170px;
+        margin-top: 0px;
+        font-size: 8px;
+        padding: 5px;
+        border-radius: 15px;
+        letter-spacing: 0.7px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
