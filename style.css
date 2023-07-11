@@ -21,6 +21,10 @@ header .header-banner {
     top: 0;
 }
 
+header .header-banner-responsive{
+    display: none;
+}
+
 header .section-headear {
     width: 75vw;
     top: 15.5vw;
@@ -33,13 +37,17 @@ header .section-headear {
     margin-right: auto;
 }
 
-header .section-headear h1 {
+header .section-headear .title-header {
     font-size: 3.5vw;
     line-height: 3.5vw;
     letter-spacing: 1.2px;
     font-family: 'Inter', sans-serif;
     color: #ffffff;
     font-weight: 800;
+}
+
+header .section-headear .title-header-responsive {
+    display: none;
 }
 
 header .section-headear h2 {
@@ -264,6 +272,7 @@ main .container-p3 section .owl-theme {
 main .container-p3 .owl-theme .item{
     background-color: #ffffff;
     padding: 10px;
+    height: 360px;
 }
 
 main .container-p3 .owl-theme .item .img-course{
@@ -666,13 +675,23 @@ footer .copyright{
 
 @media screen and (max-width: 450px) {
     header .logo{
-        width: 120px;
-        top: 20px;
+        width: 130px;
+        top: 40px;
+    }
+
+    header .header-banner {
+        display: none;
+    }
+    
+    header .header-banner-responsive{
+        display: initial;
+        width: 100%;
+        top: 0;
     }
 
     header .section-headear {
-        width: 75vw;
-        top: 55px;
+        width: 90%;
+        top: 80px;
         left: 0;
         right: 0;
         position: absolute;
@@ -683,7 +702,7 @@ footer .copyright{
     }
     
     header .section-headear h1 {
-        font-size: 16px;
+        font-size: 22px;
         line-height: 21px;
     }
     
@@ -692,14 +711,14 @@ footer .copyright{
         font-family: 'Inter', sans-serif;
         color: #ffffff;
         font-weight: 300;
-        margin-top: 1vw;
+        margin-top: 2vw;
         letter-spacing: 0.2px;
     }
 
     header .section-headear button {
         height: 26px;
         width: 150px;
-        margin-top: 3.6vw;
+        margin-top: 4vw;
         font-size: 7px;
         cursor: pointer;
         font-family: 'Inter', sans-serif;
@@ -757,7 +776,7 @@ footer .copyright{
     }
 
     main .container-2 section .content{
-        width: 75vw;
+        width: 92%;
         padding-left: 0px;
     }
 
@@ -824,6 +843,23 @@ footer .copyright{
         margin-right: auto;
     }
 
+    main .container-p3 .owl-theme .item h2{
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        font-family: 'Inter', sans-serif;
+        color: #000000;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    main .container-p3 section .rating h3{
+        font-size: 17px;
+    }
+
+    main .container-p3 section .rating img{
+        width: 60px;
+    }
+
     /* --------------- container-4 ---------------*/
     main .container-4{
         width: 100%;
@@ -846,10 +882,25 @@ footer .copyright{
     main .container-5{
         margin-left: 10px;
     }
-    
-    main .container-5 section img{
-        display: none;
+
+    main .container-5 section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
+
+    main .container-5 section img{
+        width: 95%;
+        margin-top: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 2vw;
+    }
+    
+    /*main .container-5 section img{
+        display: none;
+    }*/
     
     main .container-5 section div{
         margin-right: 0;
@@ -1021,5 +1072,43 @@ footer .copyright{
         letter-spacing: 0.7px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+    
+    footer .content{
+        display: flex;
+        justify-content: center;
+        gap: 3vw;
+        font-size: 11px;
+        letter-spacing: 0.3px;
+        line-height: 1.8vw;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
+    footer .midias-sociais{
+        margin-top: 20px;
+    }
+    
+    footer .midias-sociais img{
+        width: 20px;
+        cursor: pointer;
+    }
+    
+    footer .copyright{
+        width: auto;
+        text-align: center;
+        color: #ffffff;
+        font-size: 8px;
+        letter-spacing: 0.3px;
+        margin-top: 15px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        padding: 7px;
+        
     }
 }
