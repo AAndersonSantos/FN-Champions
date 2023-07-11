@@ -434,6 +434,54 @@ main .container-6 h1 span{
     color: #db1170;
 }
 
+ /* --------------- container-7 ---------------*/
+ 
+main .container-7 section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+    
+main .container-7 section img{
+    width: 40vw;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 2vw;
+}
+
+main .container-7 h1{
+    font-size: 2.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #b60909;
+    font-weight: 800;
+    margin-top: 2vw;
+    margin-bottom: 0.9vw;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+main .container-7 p{
+    font-size: 1.5vw;
+    font-family: 'Inter', sans-serif;
+    color: #081229;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 1.7vw;
+    text-align: start;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .container-7 span{
+    color: #1C1C1C;
+    font-weight: 600;
+    font-size: 1.7vw;
+}
+
 /*---------------------- Container-P4 ----------------------*/
 main .container-p4{
     margin-top: 120px;
@@ -675,8 +723,8 @@ footer .copyright{
 
 @media screen and (max-width: 450px) {
     header .logo{
-        width: 130px;
-        top: 40px;
+        width: 180px;
+        top: 30px;
     }
 
     header .header-banner {
@@ -691,7 +739,7 @@ footer .copyright{
 
     header .section-headear {
         width: 90%;
-        top: 80px;
+        top: 75px;
         left: 0;
         right: 0;
         position: absolute;
@@ -700,14 +748,23 @@ footer .copyright{
         margin-left: auto;
         margin-right: auto;
     }
+
+    header .section-headear .title-header {
+        display: none;
+    }
     
-    header .section-headear h1 {
-        font-size: 22px;
-        line-height: 21px;
+    header .section-headear .title-header-responsive {
+        font-size: 19px;
+        line-height: 22px;
+        letter-spacing: 1.2px;
+        font-family: 'Inter', sans-serif;
+        color: #ffffff;
+        font-weight: 800;
+        display: initial;
     }
     
     header .section-headear h2 {
-        font-size: 8px;
+        font-size: 10px;
         font-family: 'Inter', sans-serif;
         color: #ffffff;
         font-weight: 300;
@@ -716,7 +773,7 @@ footer .copyright{
     }
 
     header .section-headear button {
-        height: 26px;
+        height: 23px;
         width: 150px;
         margin-top: 4vw;
         font-size: 7px;
@@ -735,7 +792,7 @@ footer .copyright{
     
     /* --------------- container-1 ---------------*/
     main .container-1 section img{
-        width: 40%;
+        width: 70%;
         display: flex;
         margin-right: auto;
         margin-left: auto;
@@ -756,7 +813,7 @@ footer .copyright{
 
     main .container-1 p{
         font-size: 15px;
-        line-height: 17px;
+        line-height: 21px;
         text-align: center;
         width: 90%;
     }
@@ -934,6 +991,37 @@ footer .copyright{
         font-size: 12px;
         line-height: 17px;
         width: 90%;
+    }
+
+    /*------------------ Conyainer-6 ------------------*/
+    main .container-7 section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+        
+    main .container-7 section img{
+        width: 95%;
+        margin-right: 40px;
+        margin-left: 40px;
+        border-radius: 2vw;
+    }
+
+    main .container-7 span{
+        font-size: 13px;
+        letter-spacing: 0.2px;
+        text-align: center
+    }
+
+    main .container-7 p{
+        margin-top: 12px;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        width: 95%;
     }
 
     /*---------------------- Container-P4-CARDS ----------------------*/
