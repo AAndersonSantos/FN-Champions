@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/*@media screen and (min-width: 1600px) {
+    main .container-1 p{
+        font-size: 1.5vw;
+        font-family: 'Inter', sans-serif;
+        color: #081229;
+        font-weight: 300;
+        letter-spacing: 0.2px;
+        line-height: 529px;
+        text-align: start;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}*/
+
+
 * {
     margin: 0;
     padding: 0px;
@@ -344,7 +360,7 @@ main .container-4 p{
     color: #081229;
     font-weight: 300;
     letter-spacing: 0.2px;
-    line-height: 31px;
+    line-height: 1.7vw;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -372,6 +388,8 @@ main .container-5 section{
 
 main .container-5 section div{
     margin-right: 4vw;
+    margin-left: 3vw;
+    width: 50%;
 }
 
 main .container-5 h1{
@@ -395,9 +413,8 @@ main .container-5 p{
     color: #081229;
     font-weight: 300;
     letter-spacing: 0.2px;
-    line-height: 31px;
+    line-height: 1.8vw;
     text-align: start;
-    width: 700px;
 }
 
 /* --------------- container-6 ---------------*/
@@ -423,7 +440,7 @@ main .container-6 p{
     color: #081229;
     font-weight: 300;
     letter-spacing: 0.2px;
-    line-height: 31px;
+    line-height: 1.7vw;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -955,11 +972,8 @@ footer .copyright{
         border-radius: 2vw;
     }
     
-    /*main .container-5 section img{
-        display: none;
-    }*/
-    
     main .container-5 section div{
+        width: 90%;
         margin-right: 0;
     }
     
