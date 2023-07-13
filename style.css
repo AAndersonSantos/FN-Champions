@@ -288,7 +288,7 @@ main .container-p3 section .owl-theme {
 main .container-p3 .owl-theme .item{
     background-color: #ffffff;
     padding: 10px;
-    height: 360px;
+    height: 25vw;
 }
 
 main .container-p3 .owl-theme .item .img-course{
@@ -737,6 +737,12 @@ footer .copyright{
 }
 
 /*------------------- Responsive -------------------*/
+
+@media screen and (max-width: 1000px){
+    main .container-p3 .owl-theme .item{
+        height: 360px;
+    }
+}
 
 @media screen and (max-width: 450px) {
     header .logo{
