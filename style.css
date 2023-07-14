@@ -1211,6 +1211,13 @@ footer .copyright{
         margin-right: auto;
     }
 
+    main .container-p3 .owl-theme .item{
+        background-color: #F5F5F5;
+        padding: 12px;
+        height: 450px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
     main .container-p3 .owl-theme .item h2{
         font-size: 17px;
         letter-spacing: 0.5px;
@@ -1428,8 +1435,6 @@ footer .copyright{
         width: 250px;
         border-radius: 20px;
         padding-bottom: 20px;
-        border: #ff8f27 2px solid;
-        box-shadow: 0px 0px 30px 0px #ff8f27;
     }
 
     main .container-p4 .card-pro img{
@@ -1475,6 +1480,163 @@ footer .copyright{
         letter-spacing: 0.7px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    /*---------------------- Card-platinum ----------------------*/
+    main .container-p4 .card-platinum{
+        width: 250px;
+        border-radius: 20px;
+    }
+
+    main .container-p4 .card-platinum img{
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    main .container-p4 .card-platinum .content{
+        height: 150px;
+    }
+
+    main .container-p4 .card-platinum .content h2{
+        text-align: center;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    main .container-p4 .container-cards .content span{
+        font-size: 12px;
+        letter-spacing: 0.3px;
+        line-height: 1.2vw;
+        margin-top: 6px;
+        font-family: 'Inter', sans-serif;
+        color: #000000;
+        font-weight: 300;
+        margin-right: 2px;
+    }
+
+    main .container-p4 .card-platinum .content h3{
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    main .container-p4 .card-platinum .content p{
+        font-size: 9px;
+        letter-spacing: 0.3px;
+        line-height: 15px;
+        margin-top: 6px;
+        padding-left: 30px;
+    }
+
+    main .container-p4 .card-platinum .content p img{
+        width: 2.1vw;
+        margin-right: 5px;
+    }
+
+    main .container-p4 .container-cards .btn-card-platinum {
+        height: 30px;
+        width: 170px;
+        margin-top: 0px;
+        font-size: 8px;
+        cursor: pointer;
+        padding: 5px;
+        border-radius: 15px;
+        letter-spacing: 0.7px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*------------------------- Container-P5 -------------------------*/
+    main .container-p5 {
+        height: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 3.66vw;
+        padding: 30px 0px;
+    }
+
+    main .container-p5 .container-text {
+        width: 500px;
+    }
+
+    main .container-p5 .container-text h2 {
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        text-align: center;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    main .container-p5 .container-text h3 {
+        color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 1.50vw;
+        line-height: 25px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main .container-p5 section {
+        display: flex;
+        width: 90%;
+        height: 280px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 30px -13px #000000;
+        margin-top: 35px;
+    }
+
+    main .container-p5 section h2 {
+        color: #FFFFF0;
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 27px;
+        width: 95%;
+        text-align: center;
+    }
+
+    main .container-p5 section p {
+        color: #FFFFF0;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    main .container-p5 section h3 {
+        color: #FFFFF0;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 8px;
+    }
+
+    main .container-p5 section button {
+        height: 48px;
+        width:  250px;
+        margin-top: 15px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif;
+        border: none;
+        color: #ffffff;
+        border-radius: 20px;
+        font-weight: 500;
+        letter-spacing: 0.7px;
     }
 
     footer{
