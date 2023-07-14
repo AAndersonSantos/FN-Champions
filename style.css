@@ -286,13 +286,15 @@ main .container-p3 section .owl-theme {
 }
 
 main .container-p3 .owl-theme .item{
-    background-color: #ffffff;
-    padding: 10px;
-    height: 25vw;
+    background-color: #F5F5F5;
+    padding: 12px;
+    height: 30vw;
+    border-radius: 20px 20px 0px 0px;
 }
 
 main .container-p3 .owl-theme .item .img-course{
     margin-bottom: 12px;
+    border-radius: 20px;
 }
 
 main .container-p3 .owl-theme .item h2{
@@ -301,6 +303,7 @@ main .container-p3 .owl-theme .item h2{
     font-family: 'Inter', sans-serif;
     color: #000000;
     font-weight: 800;
+    text-align: center;
 }
 
 main .container-p3 .owl-theme .item p{
@@ -525,7 +528,7 @@ main .container-p4 h1 span{
 main .container-p4 .container-cards{
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 40px;
     margin-top: 5vw;
 }
 
@@ -604,8 +607,8 @@ main .container-p4 .container-cards .btn-card-plus {
     font-size: 1.27vw;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
-    background-color: #520140;
-    box-shadow: 0px 0px 30px -7px #520140;
+    background-color: #dcdcdc;
+    box-shadow: 0px 0px 30px -7px #dcdcdc;
     border: none;
     color: #ffffff;
     font-weight: 600;
@@ -624,8 +627,6 @@ main .container-p4 .card-pro{
     width: 30vw;
     padding-bottom: 3vw;
     border-radius: 20px;
-    border: #ff8f27 2px solid;
-    box-shadow: 0px 0px 30px 0px #ff8f27;
 }
 
 main .container-p4 .card-pro img{
@@ -683,8 +684,8 @@ main .container-p4 .container-cards .btn-card-pro {
     font-size: 1.27vw;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
-    background-color: #ff8f27;
-    box-shadow: 0px 0px 30px -7px #ff8f27;
+    background-color: #ffd700;
+    box-shadow: 0px 0px 30px -7px #ffd700;
     border: none;
     color: #ffffff;
     font-weight: 600;
@@ -693,6 +694,195 @@ main .container-p4 .container-cards .btn-card-pro {
     letter-spacing: 0.7px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*---------------------- Card-Silver ----------------------*/
+main .container-p4 .card-platinum{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    width: 30vw;
+    padding-bottom: 3vw;
+    border-radius: 20px;
+    border: #8b8989 2px solid;
+    box-shadow: 0px 0px 30px 0px #8b8989;
+}
+
+main .container-p4 .card-platinum img{
+    width: 100%;
+    border-radius: 17px 17px 0px 0px;
+}
+
+main .container-p4 .card-planitum .content{
+    height: 20vw;
+}
+
+main .container-p4 .card-platinum .content h2{
+    text-align: center;
+    font-size: 2.5vw;
+    letter-spacing: 0.3px;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 800;
+    margin-bottom: 0.3vw;
+}
+
+main .container-p4 .card-platinum .content h3{
+    text-align: center;
+    font-size: 1vw;
+    letter-spacing: 0.3px;
+    font-family: 'Inter', sans-serif;
+    color: #363636;
+    font-weight: 400;
+    margin-bottom: 2.3vw;
+}
+
+main .container-p4 .card-platinum .content p{
+    font-size: 1vw;
+    letter-spacing: 0.3px;
+    line-height: 1.2vw;
+    margin-top: 6px;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    padding-left: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main .container-p4 .card-platinum .content p img{
+    width: 2.1vw;
+    margin-right: 5px;
+}
+
+main .container-p4 .container-cards .btn-card-platinum {
+    height: 4.3vw;
+    width: 25vw;
+    margin-top: 5.3vw;
+    font-size: 1.27vw;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    background-color: #8b8989;
+    box-shadow: 0px 0px 30px -7px #8b8989;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 1.25vw;
+    border-radius: 2vw;
+    letter-spacing: 0.7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------- Container-P5 -------------------------*/
+main .container-p5 {
+    margin-top: 130px;
+    height: 33vw;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #6495ED;
+}
+
+main .container-p5 .container-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4vw;
+    padding: 1.09vw;
+}
+
+main .container-p5 .container-text h2 {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 2.5vw;
+    text-align: start;
+    width: 40vw;
+}
+
+main .container-p5 .container-text h3 {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.4vw;
+    text-align: center;
+    text-align: start;
+    margin-top: 0.73vw;
+    line-height: 2vw;
+    width: 40vw;
+}
+
+main .container-p5 section {
+    background-color: #081229;
+    border-radius: 10px;
+    display: flex;
+    width: 32.94vw;
+    height: 27.81vw;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+    box-shadow: 0px 0px 30px -13px #000000;
+}
+
+main .container-p5 section h2 {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 2.6vw;
+    text-align: center;
+}
+
+main .container-p5 section p {
+    color: #E8E8E8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.3vw;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+main .container-p5 section h3 {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 3.5vw;
+    text-align: center;
+    margin-top: 0.73vw;
+}
+
+main .container-p5 section button {
+    height: 4.3vw;
+    width: 24vw;
+    margin-top: 1.7vw;
+    font-size: 1.17vw;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    background-color: #db1170;
+    box-shadow: 0px 0px 30px -17px #db1170;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 1.09vw;
+    border-radius: 2vw;
+    letter-spacing: 0.7px;
+}
+
+main .container-p5 section button:hover {
+    animation: none;
+    transform: scale(1.05);
+}
+
+main .container-p5 p {
+    margin-top: 1.46vw;
+    color: #CFCFCF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 1.22vw;
+    text-align: center;
 }
 
 /*---------------------- Footer ----------------------*/
@@ -739,6 +929,99 @@ footer .copyright{
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     padding: 0.7vw;
+}
+
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+
+.active.fade-new {
+    animation: fade-new 1.3s ease-in;
+}
+
+.active.fade-top {
+    animation: fade-top 1s ease-in;
+}
+
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+}
+
+.active.fade-left {
+    animation: fade-left 1s ease-in;
+}
+
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+}
+
+@keyframes fade-top {
+    0% {
+        transform: translateY(-60px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-new {
+    0% {
+        transform: scale(0px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(100px);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-bottom {
+    0% {
+        transform: translateY(90px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-left {
+    0% {
+        transform: translateX(-60px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    body {
+        overflow-x: none;
+    }
+}
+
+@keyframes fade-right {
+    0% {
+        transform: translateX(60px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 /*------------------- Responsive -------------------*/
